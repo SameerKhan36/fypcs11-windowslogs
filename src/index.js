@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 import SignIn from "./components/SignIn/SignIn"
 import SignUp from "./components/SignUp/SignUp"
-import Dashboard from "./components/Dashboard/Dashboard"
+// import Dashboard from "./components/Dashboard/Dashboard"
 // import Sidebar from "./components/Sidebar/Sidebar"
 import Users from "./components/Nav/Users/Users"
 import DataAnalysis from "./components/Nav/DataAnalysis/DataAnalysis"
