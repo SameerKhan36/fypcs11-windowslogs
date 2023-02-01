@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import SignIn from "./components/SignIn/SignIn"
+//import SignIn from "./components/SignIn/SignIn"
 import SignUp from "./components/SignUp/SignUp"
 // import Dashboard from "./components/Dashboard/Dashboard"
 // import Sidebar from "./components/Sidebar/Sidebar"
-import Users from "./components/Nav/Users/Users"
-import DataAnalysis from "./components/Nav/DataAnalysis/DataAnalysis"
-import DataManagement from "./components/Nav/DataManagement/DataManagement"
-import Reports from "./components/Nav/Reports/Reports"
+//import Users from "./components/Nav/Users/Users"
+//import DataAnalysis from "./components/Nav/DataAnalysis/DataAnalysis"
+//import DataManagement from "./components/Nav/DataManagement/DataManagement"
+//import Reports from "./components/Nav/Reports/Reports"
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import Main from "./components/main/Main"
+//import Main from "./components/main/Main"
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {
