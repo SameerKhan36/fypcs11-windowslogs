@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    width: 450px;
+    border: 2px solid #8b8b8b;
+    border-radius: 8px;
+}
+.login-title{
+    /* border: 1px solid; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-title img{
+    height: 37px;
+    width: 37px;
+}
+.login-title span{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 7px;
+    font-family: sans-serif;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.resizing-input-fields{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    position: relative;
+}
+.resizing-input-fields input{
+    width: 370px;
+    margin-left: 42px;
+    height: 26px;
+    border-radius: 6px;
+    border: 1px solid #ada7a7;
+}
+.resizing-input-fields label{
+    margin-left: 42px;
+}
+.resizing-input-fields img{
+    height: 27px;
+    width: 26px;
+    position: absolute;
+    right: 42px;
+    top: 23px
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+.login-btn input{
+    color: #fff;
+    background-color: purple;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    width: 357px;
+}
+.back-to-signup{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 34px;
+    padding-right: 15px;
+}
+.back-to-signup button{
+    text-decoration: none !important;
+    font-size: 14px !important;
+}
+
+.error-message {
+    margin-top: 2px;
+    color: red;
+    font-size: 12px;
+    margin-left: 43px;
+}
