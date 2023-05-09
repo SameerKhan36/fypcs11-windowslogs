@@ -7,9 +7,9 @@ import moment from 'moment';
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
-import { emitData, listenerData, listenerWatch } from '../../socket';
+// import { emitData, listenerData, listenerWatch } from '../../socket';
 import { SignupValidationSchema } from "../Validations/Validations";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 
 // const inputString = '2023-03-20T11:46:59.4010000Z'
@@ -49,9 +49,9 @@ const SignUp1 = () => {
 //         console.log('i fire once');
 //   },[]);
 
-    useEffect(() => {
-        return listenerData('pp')
-    }, [])
+    // useEffect(() => {
+    //     return listenerData('pp')
+    // }, [])
 
     const navigate = useNavigate();
 
@@ -75,7 +75,7 @@ const SignUp1 = () => {
                 // navigate("/login");
                 // console.log(response.data); 
                 setData(response.data)
-                emitData("hello")
+                // emitData("hello")
                 const newD = response.data;
 
             })
