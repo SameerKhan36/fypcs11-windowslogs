@@ -104,17 +104,16 @@
 }
 
 .table {
-    text-align: center;
+    /* text-align: center; */
     width: unset !important;
-    /* column-span: 30px; */
+    column-span: 30px;
 }
-
 
 .users-table {
     /* margin-top: 100px; */ 
     display: flex;
     height: 600px;
-    width:1200px;
+    width:1350px;
     overflow: auto;
     justify-content: center;
     margin-bottom: 30px;
