@@ -33,7 +33,7 @@ const dateFormat = (d) => {
     // Convert the date string to a Moment object
     const dateObj = moment.utc(dateStr);
     // Format the date object in the desired format
-    const formattedDate = dateObj.format('MMMM Do YYYY, h:mm:ss a');
+    const formattedDate = dateObj.format(`MMMM Do YYYY hh:mm:ss a`);
     // console.log(formattedDate);
     return formattedDate;
     }
@@ -67,8 +67,8 @@ const SignUp1 = () => {
     })
 
     const signUp = () => {
-        const myUrl = 'http://172.104.174.187:4068/api/signup';
-        // const myUrl = 'http://localhost:4068/windowslogs';
+        // const myUrl = 'http://172.104.174.187:4068/api/signup';
+        const myUrl = 'http://localhost:4068/windowslogs';
         axios.post(myUrl, formik?.values)
             .then((response) => {
                 successToast("Registered Successfully");

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import Sqlconnection from "./components/Sqlconnection/Sqlconnection"
+// import Sqlconnection from "./components/Sqlconnection/Sqlconnection"
 // import Sidebar from "./components/Sidebar/Sidebar"
 import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/css/bootstrap.css';
