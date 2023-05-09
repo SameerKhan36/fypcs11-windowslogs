@@ -67,8 +67,8 @@ const SignUp1 = () => {
     })
 
     const signUp = () => {
-        // const myUrl = 'http://172.104.174.187:4068/api/signup';
-        const myUrl = 'http://localhost:4068/windowslogs';
+        const myUrl = 'http://172.104.174.187:4068/api/signup';
+        // const myUrl = 'http://localhost:4068/windowslogs';
         axios.post(myUrl, formik?.values)
             .then((response) => {
                 successToast("Registered Successfully");
