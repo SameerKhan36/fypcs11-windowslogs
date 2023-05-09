@@ -59,12 +59,11 @@
 .signup-btn{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 33px;
 }
 .signup-btn input{
     color: #fff;
-    background-color: #0078d4;
+    background-color: #00758f;
     height: 35px;
     border: none;
     border-radius: 6px;
@@ -85,4 +84,9 @@
     color: red;
     font-size: 12px;
     margin-left: 43px;
+}
+
+table{
+    margin: 50px;
+    text-align: center;
 }

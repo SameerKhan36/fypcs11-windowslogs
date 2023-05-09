@@ -1,38 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-//import SignIn from "./components/SignIn/SignIn"
-import SignUp from "./components/SignUp/SignUp"
-// import Dashboard from "./components/Dashboard/Dashboard"
+import Sqlconnection from "./components/Sqlconnection/Sqlconnection"
 // import Sidebar from "./components/Sidebar/Sidebar"
-//import Users from "./components/Nav/Users/Users"
-//import DataAnalysis from "./components/Nav/DataAnalysis/DataAnalysis"
-//import DataManagement from "./components/Nav/DataManagement/DataManagement"
-//import Reports from "./components/Nav/Reports/Reports"
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
-//import Main from "./components/main/Main"
+// import 'bootstrap/dist/css/bootstrap.css';
+// import Main from "./components/main/Main"
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import SignUp1 from './components/WindowsLogs/windowslogs';
 
 
 const router = createBrowserRouter([
+  // {
+  //   path: "/",
+  //   element: <Main/>,
+  // },
   {
     path: "/",
-    element: <SignUp/>,
+    element: <SignUp1/>,
   },
-  // {
-  //   path: "/login",
-  //   element: <SignIn/>,
-  // },
-  // {
-  //   path: "/signup",
-  //   element: <SignUp/>,
-  // },
   // {
   //   path: "/dashboard",
   //   element: <Dashboard/>,
@@ -57,9 +48,9 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
         <RouterProvider router={router} />
-  </React.StrictMode>
+    //     <React.StrictMode>
+    // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
